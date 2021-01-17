@@ -25,7 +25,7 @@ a:focus{
 
 /*header*/
 .logotype-blue {
-    font-family: Raleway;
+    font-family: "Raleway";
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
@@ -36,7 +36,7 @@ a:focus{
 
 .logotype-black{
 
-    font-family: Raleway;
+    font-family: "Raleway";
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
@@ -54,10 +54,7 @@ a:focus{
     color: #212121;
 }
 
-/*.navigation-list-link:hover,*/
-/*.navigation-list-link:focus {*/
-    /*color: var(--accent-color);*/
-}
+
 
 .tel-link {
     font-weight: 500;
@@ -67,10 +64,7 @@ a:focus{
      color: #757575;
 }
 
-/*.tel-link:hover,*/
-/*.tel-link:focus {*/
-    /*color: var(--accent-color);*/
-}
+
 
 .mail-link {
     font-weight: 500;
@@ -80,10 +74,7 @@ a:focus{
      color: #757575;
 }
 
-/*.mail-link:hover,*/
-/*.mail-link:focus {*/
-    /*color: var(--accent-color);*/
-}
+
 
 /*---------end header---------*/
 
@@ -137,7 +128,6 @@ text-transform: uppercase;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-
     color: #757575;
 }
 
@@ -218,10 +208,6 @@ text-transform: uppercase;
     /*color: rgba(255, 255, 255, 0.6);*/
 }
 
-/*.contact-information-link:hover, .contact-information-mail:hover, .contact-information-tel:hover,*/
-/*.contact-information-link:focus, .contact-information-mail:focus, .contact-information-tel:focus {*/
-    /*!*color: var(--accent-color);*!*/
-/*}*/
 
 
 /*----------portfolio----------*/
