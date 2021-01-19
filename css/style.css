@@ -8,6 +8,7 @@
     --dark-color: #000000;
     --bright-color: #ffffff;
     --text-color: #757575;
+    --back-color: #F5F4FA;
 
 }
 
@@ -39,8 +40,7 @@ a:active{
 
 /*header*/
 .logotype{
-    font-family: "Raleway";
-    font-style: normal;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.192;
@@ -180,6 +180,10 @@ color: var(--bright-color);
 
 /*---------TEAM---------*/
 
+.team {
+    background: var(--back-color);
+}
+
 .team-title {
     font-weight: 700;
     font-size: 36px;
@@ -275,7 +279,7 @@ footer {
     letter-spacing: 0.06em;
     border: none;
     border-radius: 4px;
-    background: #F5F4FA;
+    background: var(--back-color);
     color: var(--title-color);
 }
 
